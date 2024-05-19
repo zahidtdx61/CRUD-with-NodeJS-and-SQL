@@ -1,7 +1,7 @@
 {
-  "name": "base_nodejs_project_template",
+  "name": "basic_crud_project_using_sql",
   "version": "1.0.0",
-  "description": "A basic started boilerplate project for node",
+  "description": "Basic CRUD project with SQL",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch src/index.js"
