@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Airplane.init(
     {
-      modelNUmber: {
+      modelNumber: {
         type: DataTypes.STRING,
         allowNull: false,
         unique: true,
