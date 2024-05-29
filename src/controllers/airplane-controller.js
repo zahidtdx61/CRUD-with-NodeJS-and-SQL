@@ -22,7 +22,6 @@ async function createAirplane(req, res) {
               error: {},
             });
   } catch (error) {
-    console.log(error);
     return res
             .status(StatusCodes.INTERNAL_SERVER_ERROR)
             .json({
