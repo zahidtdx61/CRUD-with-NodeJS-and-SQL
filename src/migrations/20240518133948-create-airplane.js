@@ -17,6 +17,7 @@ module.exports = {
       capacity: {
         type: Sequelize.STRING,
         allowNull: false,
+        defaultValue: 0,
       },
       createdAt: {
         allowNull: false,

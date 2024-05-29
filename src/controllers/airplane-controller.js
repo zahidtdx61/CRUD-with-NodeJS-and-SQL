@@ -22,13 +22,14 @@ async function createAirplane(req, res) {
               error: {},
             });
   } catch (error) {
+    console.log(error);
     return res
             .status(StatusCodes.INTERNAL_SERVER_ERROR)
             .json({
               success: false,
               message: 'Something went wrong while creating an airplane',
               data: {},
-              error: error,
+              error: error.name,
             })
   }
 }
